@@ -12,5 +12,12 @@ const nodestripe =  require('stripe_it') <br />
     "exp_month": 12, <br />
     "exp_year": 2019, <br />
     "cvc": '123' <br />
-}}) 
+}}) <br />
+
+var charge = await stripe_it._.createCharge({ <br />
+  amount: 2000, <br />
+  currency: "usd",  <br />
+  source: token.id, // obtained from above step  <br />
+  description: "Charge for ilankumaran786@gmail.com" <br />
+}) <br />
 
