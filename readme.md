@@ -1,8 +1,8 @@
-###Installation
+##Installation
 
 npm i stripe_it
 
-###Implementation
+##Implementation
 
 const nodestripe =  require('stripe_it')
  const stripe_it = new nodestripe({key:'sk_test_34erxxxxxxxxxxxxxxxx'})
