@@ -42,3 +42,8 @@ We Used `stripe_it._.createToken()` to create token for the transaction, Here cr
 <br />
 Similarly, For Creating charges, There is a dedicated function which also can be called with _ object. All the available stripe methods in this module can only be called with the _ object
 
+<br />
+List of available methods <br />
+createCharge - Used to create charges.. <br />
+createToken -  Token Creation <br />
+chargeList - To view the list of charges made <br />
