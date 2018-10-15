@@ -34,11 +34,11 @@ const stripe_it = new nodestripe({key:'sk_test_34erxxxxxxxxxxxxxxxx'})
 Above lines deal with just requiring our node package and creating new instance..Kindly stick with the above syntax..It is mandatory to pass the key while creating the constructor.
 
 <br />
-Once the new instance is created., In our case, `stripe_it` variable is the one..Any stripe method can be called with the `_` object.
+Once the new instance is created., In our case, `stripe_it` variable is the one..Any stripe method can be called with the _ object.
 <br />
 
 We Used `stripe_it._.createToken()` to create token for the transaction, Here createToken is the function which takes your payload and speak with stripe to yield token. 
 
 <br />
-Similarly, For Creating charges, There is a dedicated function which also can be called with `_` object. All the available stripe methods in this module can only be called with the `_` object
+Similarly, For Creating charges, There is a dedicated function which also can be called with _ object. All the available stripe methods in this module can only be called with the _ object
 
