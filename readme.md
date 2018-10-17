@@ -44,6 +44,10 @@ Similarly, For Creating charges, There is a dedicated function which also can be
 
 <br />
 List of available methods <br />
-createCharge - Used to create charges.. <br />
-createToken -  Token Creation <br />
-chargeList - To view the list of charges made <br />
+```
+createCharge - Used to create charges..
+createToken -  Token Creation 
+chargeList - To view the list of charges made
+createCustomer - To create a customer
+customersList - To view list of customers
+```
