@@ -1,20 +1,23 @@
 {
   "name": "stripe_it",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-  "type" : "git",
-  "url" : "https://github.com/Ilankumaran-developer/stripe_node"
-},
+    "type": "git",
+    "url": "https://github.com/Ilankumaran-developer/stripe_node"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "baseapp": "file:./lib",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
     "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
     "querystring": "^0.2.0",
     "request": "^2.88.0"
   }
